@@ -61,8 +61,7 @@ nombreForm.addEventListener("submit", async function (event) {
 
 async function agregarNombreAJSONServer(nombre) {
   try {
-    //URL API fal
-    sa http://localhost:3000/nombres
+    //URL API falsa http://localhost:3000/nombres
     await axios.post("https://taller-mini-back-modulo2.onrender.com/nombres", {
       nombre,
     });
