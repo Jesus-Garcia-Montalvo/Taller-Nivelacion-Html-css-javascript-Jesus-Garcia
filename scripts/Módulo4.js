@@ -61,7 +61,11 @@ nombreForm.addEventListener("submit", async function (event) {
 
 async function agregarNombreAJSONServer(nombre) {
   try {
-    await axios.post("http://localhost:3000/nombres", { nombre });
+    //URL API fal
+    sa http://localhost:3000/nombres
+    await axios.post("https://taller-mini-back-modulo2.onrender.com/nombres", {
+      nombre,
+    });
   } catch (error) {
     console.error("Error al agregar nombre:", error);
   }
@@ -69,7 +73,10 @@ async function agregarNombreAJSONServer(nombre) {
 
 async function obtenerNombresDeJSONServer() {
   try {
-    const response = await axios.get("http://localhost:3000/nombres");
+    //URL API falsa http://localhost:3000/nombres
+    const response = await axios.get(
+      "https://taller-mini-back-modulo2.onrender.com/nombres"
+    );
     return response.data;
   } catch (error) {
     console.error("Error al obtener nombres:", error);
