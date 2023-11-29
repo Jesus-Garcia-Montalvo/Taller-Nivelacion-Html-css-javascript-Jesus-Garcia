@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/Nav.css">
+    <link rel="stylesheet" href="./styles/Módulo2.css">
+    <link rel="stylesheet" href="./styles/Módulo3.css">
+    <link rel="stylesheet" href="./styles/Módulo4.css">
+  </head>
+
+  <body id="elementoObjetivo" class="cambiar-color">
+    <div class="header">
+      <h1>Módulo 2</h1>
+    </div>
+
+    <nav>
+      <span id="nav_home">Inicio</span>
+      <span id="nav_ours">Quiénes somos</span>
+      <span id="nav_contact">Contacto</span>
+    </nav>
+    <main id="cont_Main"></main>
+
+    <section class="tarjetas-section">
+      <div class="tarjeta">
+        <!-- Tarjeta 1 -->
+        <h2>Tarjeta 1</h2>
+        <p>Contenido de la Tarjeta 1.</p>
+      </div>
+
+      <div class="tarjeta">
+        <!-- Tarjeta 2 -->
+        <h2>Tarjeta 2</h2>
+        <p>Contenido de la Tarjeta 2.</p>
+      </div>
+
+      <div class="tarjeta">
+        <!-- Tarjeta 3 -->
+        <h2>Tarjeta 3</h2>
+        <p>Contenido de la Tarjeta 3.</p>
+      </div>
+    </section>
+
+    <div class="grid-container">
+      <div class="imagen">Imagen 1</div>
+      <div class="imagen">Imagen 2</div>
+      <div class="imagen">Imagen 3</div>
+    </div>
+
+    <div class="header">
+      <h1>Módulo 3</h1>
+    </div>
+
+    <h1>Cambiar Color al Clic</h1>
+
+    <button id="cambiarColorBtn" class="cambiarColorBtn">Cambiar Color</button>
+
+    <h1>Delegación de Eventos</h1>
+
+    <ul id="miLista">
+      <li>Click 1</li>
+      <li>Click 2</li>
+      <li>Click 3</li>
+      <li>Click 4</li>
+    </ul>
+
+    <h1>Formulario de Ejemplo</h1>
+
+    <form id="miFormulario">
+      <label for="datoEntrada">Ingrese su información:</label>
+      <input
+        type="text"
+        id="datoEntrada"
+        name="datoEntrada"
+        class="formInput"
+        required
+      />
+      <button type="submit" class="formButton">Enviar</button>
+    </form>
+    <div class="header">
+      <h1>Módulo 4 Practica 1 </h1>
+    </div>
+    
+
+    <h1>Almacenamiento Local y de Sesión</h1>
+
+
+    
+
+      <form id="miFormulario">
+        <label for="datoEntrada">Ingrese un dato::</label>
+        <input
+          type="text"
+          id="datoEntrada"
+          name="datoEntrada"
+          class="formInput"
+          required
+        />
+        <div class="formButtonContainer">
+          <button id="guardarLocal" class="formButton">Guardar en localStorage</button>
+        <button id="guardarSesion" class="formButton">Guardar en sessionStorage</button>
+
+        </div>
+        
+      </form>
+    
+
+    <div class="data-container">
+      <h2>Datos almacenados en localStorage:</h2>
+      <p id="datosLocalStorage"></p>
+    </div>b
+
+    <div class="data-container">
+      <h2>Datos almacenados en sessionStorage:</h2>
+      <p id="datosSessionStorage"></p>
+    </div>
+
+    <div class="header">
+      <h1>Módulo 4 Practica 2 </h1>
+    </div>
+
+
+    <h1 class="titulo">Formulario de Nombres con JSON Server</h1>
+
+    <form id="nombreForm" class="formulario">
+        <label for="nombreInput" class="etiqueta">Nombre:</label>
+        <input type="text" id="nombreInput" name="nombreInput" class="entrada" required>
+        <button type="submit" class="formButton">Agregar Nombre</button>
+    </form>
+
+    <table id="tablaNombres" class="tabla">
+        <thead>
+            <tr>
+                <th class="encabezado">Nombres Agregados</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <footer>
+      <p>&copy; 2023 Jesus-Garcia-Montalvo</p>
+    </footer>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      
+    </script>
+  </body>
+
+  <script></script>
+  <script src="./scripts/Módulo1.js"></script>
+  <script src="./scripts/Nav.js"></script>
+  <script src="./scripts/Módulo3.js"></script>
+  <script src="./scripts/Módulo4.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>

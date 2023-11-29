@@ -1,0 +1,82 @@
+
+
+
+
+
+/* Estilos Módulo 4  */
+.form-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form-container label,
+  .form-container input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .formButtonContainer {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .data-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /*módulo 4 parcica 2 */
+  
+  .titulo {
+    color: #333;
+  }
+  
+  .formulario {
+    margin-bottom: 20px;
+  }
+  
+  .etiqueta {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .entrada {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .tabla-container {
+    text-align: center;
+  }
+  
+  .tabla {
+    border-collapse: collapse;
+    width: 24%; /* Ajusta el ancho según tus preferencias */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    margin-top: 20px;
+  }
+  
+  .encabezado,
+  .celda {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .encabezado {
+    text-align: center;
+    background-color: #5629fb;
+    color: white;
+  }
+  

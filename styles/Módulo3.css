@@ -1,0 +1,78 @@
+
+.cambiar-color {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .color-verde {
+    background-color: #5629fb;
+  }
+  
+  .dark-mode {
+    background-color: #2d2b33;
+    color: white;
+    transition: background-color 0.3s ease; /* Añadir transición para suavizar el cambio de color */
+  }
+  
+  .cambiarColorBtn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #2d2b33;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease; /* Añadir transición para suavizar el cambio de color */
+  }
+  
+  .cambiarColorBtn:hover {
+    background-color: #5629fb; /* Cambiar el color al hacer hover */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    background-color: #2d2b33;
+    color: white;
+    transition: background-color 0.3s ease1;
+    width: 100px;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: #5629fb;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .formInput {
+    margin-top: 12px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .formButton {
+    padding: 10px;
+    background-color: #2d2b33;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .formButton:hover {
+    padding: 10px;
+    background-color: #5629fb;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,12 @@
+nav span {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #5629fb;
+    color: #2d2b33;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  nav span:hover {
+    color: #fff;
+  }
