@@ -1,4 +1,4 @@
-#MÓDULO SOBRE LÓGICA, LÓGICA DE PROGRAMACIÓN Y PROGRAMACIÓN CON JAVASCRIPT
+# MÓDULO SOBRE LÓGICA, LÓGICA DE PROGRAMACIÓN Y PROGRAMACIÓN CON JAVASCRIPT
 
 
 ---
@@ -87,7 +87,7 @@ var resta = (a, b) => a - b;
 
 
 
-#MÓDULO SOBRE HTML, CSS Y RESPONSIVE DESIGN
+# MÓDULO SOBRE HTML, CSS Y RESPONSIVE DESIGN
 
 ---
 
@@ -387,13 +387,11 @@ const fetchData = async () => {
 
 > facilitan la comunicación eficiente entre el cliente y el servidor, permiten la actualización dinámica de datos, posibilitan la integración con servicios externos mediante APIs, y son fundamentales para operaciones asincrónicas, seguridad, rendimiento y escalabilidad.
 
-#### 13. Proporciona ejemplos de cómo se utilizan Fetch y Axios para realizar solicitudes GET y
-POST
+#### 13. Proporciona ejemplos de cómo se utilizan Fetch y Axios para realizar solicitudes GET y POST
 
 > repuesta modulo 4 pregunta 10.
 
-#### 14. Explica la importancia del manejo de errores al trabajar con promesas en el desarrollo
-web.
+#### 14. Explica la importancia del manejo de errores al trabajar con promesas en el desarrollo web.
 
 > el manejo de errores es crucial para prevenir fallos inesperados, mejorar la experiencia del usuario, facilitar la identificación y corrección de problemas, y evitar la propagación de errores no controlados.
 
@@ -405,8 +403,7 @@ web.
       // Manejo de errores
     });
 
-#### 17. Proporciona un ejemplo de cómo se puede manejar un error en una promesa al realizar
-una solicitud de red.
+#### 17. Proporciona un ejemplo de cómo se puede manejar un error en una promesa al realizar una solicitud de red.
 
     const url = 'https://api.example.com/data';
 
