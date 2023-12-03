@@ -15,8 +15,7 @@ es esencial para crear aplicaciones web interactivas, eficientes y atractivas pa
 
 
 #### 2.Definir el concepto de “algoritmo” y proporcionar un ejemplo sencillo de un algoritmo relacionado con la lógica de programación.
-> 
-Un algoritmo es un conjunto de pasos definidos para realizar una tarea o resolver un problema. Por ejemplo, un algoritmo simple podría ser encontrar el número mayor en una lista.
+> Un algoritmo es un conjunto de pasos definidos para realizar una tarea o resolver un problema. Por ejemplo, un algoritmo simple podría ser encontrar el número mayor en una lista.
 
 #### 3. ¿Qué son estructuras de control en la programación?, ¿Cuáles son los tipos de estructuras de control y las estructuras más comunes de cada tipo?, Describir al menos dos tipos de estructura de control, explicar por qué son importantes y proporcionar ejemplos de cada uno de cómo se utilizan en el desarrollo web Frontend
 
@@ -47,11 +46,10 @@ for (let i = 0; i < 5; i++) {
 
 #### 4. Describir cómo se declaraban variables y constantes en JavaScript antes de la introducción de ECMAScript 6 (ES6). Explicar cómo ES6 mejoró la declaración de variables y constantes, y mencionar los problemas que esta mejora resuelve en el desarrollo web Frontend.
 
-Antes de ES6, las variables se declaraban con `var`. ES6 introdujo `let` y `const`, mejorando la claridad del código y evitando problemas de alcance (scope).
+> Antes de ES6, las variables se declaraban con `var`. ES6 introdujo `let` y `const`, mejorando la claridad del código y evitando problemas de alcance (scope).
 
 #### 5. ¿Cómo se declaran las funciones en JavaScript y cuál es la diferencia entre una declaración de función, una expresión de función y una función de flecha (arrow function)? Proporcionar ejemplos de cada una.
-
-las Funciones se declaran con  `function `. Diferencias clave incluyen la forma en que se declaran y el manejo de  `this `. Ejemplo de declaración, expresión y función de flecha.
+>  las Funciones se declaran con  `function `. Diferencias clave incluyen la forma en que se declaran y el manejo de  `this `. Ejemplo de declaración, expresión y función de flecha.
 
 > ** Declaración de función:** Se utiliza la palabra clave function.
 
@@ -79,6 +77,7 @@ var resta = (a, b) => a - b;
 
 ```
 
+
 #### 6. ¿Por qué es necesario el uso de funciones en el desarrollo web Frontend? Enumerar al menos tres razones fundamentales y proporcionar ejemplos de situaciones en las que las funciones son esenciales. Además, mencionar la ventaja de las funciones flecha en el contexto de estas razones.
 
 #
@@ -89,8 +88,7 @@ var resta = (a, b) => a - b;
 > **Organización del código:** Modularizar el código para una gestión más eficiente, como validar formularios, interactuar con la API y actualizar la interfaz de usuario.
 
 > **Manejo de eventos:** Definir funciones para responder a acciones del usuario, como clics y cambios en formularios.
-> 
-Las funciones flecha ofrecen ventajas adicionales, como una sintaxis concisa y un manejo más predecible del contexto. `this`
+> Las funciones flecha ofrecen ventajas adicionales, como una sintaxis concisa y un manejo más predecible del contexto. `this`
 
 #### 7. ¿Cuál es la diferencia entre parámetro y argumento?
 
@@ -132,8 +130,7 @@ function foo() {
 }
 
 ```
-> 
-Es importante recordar que el hoisting no funciona igual con `let` y `const`, y acceder a ellas antes de la declaración resulta en un error.
+> Es importante recordar que el hoisting no funciona igual con `let` y `const`, y acceder a ellas antes de la declaración resulta en un error.
 
 ```javascript
 console.log(y); // Error: y no está definido
@@ -228,8 +225,6 @@ const squaredNumbers = numbers.map(num => num * num);
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 
 ```
-
-
 
 
 
