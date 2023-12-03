@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 > Estos conceptos son esenciales en la gestión de eventos en páginas con múltiples elementos interactivos debido a su eficiencia. "Event bubbling" permite la propagación de eventos desde el elemento objetivo hasta el ancestro, simplificando la implementación de controladores. "Event delegation" optimiza aún más al asignar un solo controlador al ancestro, lo que resulta crucial en páginas con muchos elementos, reduciendo la complejidad y mejorando el rendimiento al manejar eventos de manera más eficiente. Estos enfoques son fundamentales para construir aplicaciones web interactivas y escalables.
 
-# MÓDULO SOBRE (STORAGE, PROMESAS, ASINCRONÍAS Y PETICIONES HTTPS) ⚛️
+# MÓDULO SOBRE (STORAGE, PROMESAS, ASINCRONÍAS Y PETICIONES HTTPS) 
 
 ---
 
