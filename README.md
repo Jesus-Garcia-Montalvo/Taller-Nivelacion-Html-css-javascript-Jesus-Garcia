@@ -168,7 +168,7 @@ var resta = (a, b) => a - b;
 > Unidades de medida flexibles (porcentajes, vw, vh).
 > Imágenes fluidas con max-width: 100%;.**
 
-#MÓDULO SOBRE DOM E INTERACCIÓN CON EL DOM
+# MÓDULO SOBRE DOM E INTERACCIÓN CON EL DOM
 
 ---
 
