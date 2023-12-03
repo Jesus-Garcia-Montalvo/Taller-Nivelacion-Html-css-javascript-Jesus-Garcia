@@ -79,8 +79,155 @@ var resta = (a, b) => a - b;
 
 ```
 
-
 #### 6. ¿Por qué es necesario el uso de funciones en el desarrollo web Frontend? Enumerar al menos tres razones fundamentales y proporcionar ejemplos de situaciones en las que las funciones son esenciales. Además, mencionar la ventaja de las funciones flecha en el contexto de estas razones.
+
+#
+> el uso de funciones en el desarrollo web Frontend es crucial para.
+
+> **Reutilización de código:** Agrupar operaciones similares para utilizarlas en diferentes partes de la aplicación.
+
+> **Organización del código:** Modularizar el código para una gestión más eficiente, como validar formularios, interactuar con la API y actualizar la interfaz de usuario.
+
+> **Manejo de eventos:** Definir funciones para responder a acciones del usuario, como clics y cambios en formularios.
+> 
+Las funciones flecha ofrecen ventajas adicionales, como una sintaxis concisa y un manejo más predecible del contexto. `this`
+
+#### 7. ¿Cuál es la diferencia entre parámetro y argumento?
+
+> Un parámetro es una variable en la definición de una función, mientras que un argumento es el valor real pasado a la función cuando se llama.
+
+#### 8. Definir el concepto de Callback y proporcionar un ejemplo práctico.
+
+> Un callback es una función que se pasa como argumento a otra función y se ejecuta después de que cierta operación ha sido completada.
+
+```javascript
+function fetchData(url, callback) {
+    // Lógica para obtener datos
+    const data = /* datos obtenidos */;
+    callback(data);
+}
+
+```
+
+#### 9. ¿Qué es el hoisting en JavaScript y cómo afecta a las variables y funciones? Proporcionar ejemplos de hoisting en declaraciones de variables y funciones.
+
+> El hoisting eleva las declaraciones de variables y funciones al inicio del contexto de ejecución, el hoisting en JavaScript permite usar variables y funciones antes de declararlas en el código, Antes de ES6, las variables declaradas con `var` se izaban, pero no sus asignaciones.
+
+> **Ejemplo con variable var:**
+
+```javascript
+console.log(x); // Salida: undefined
+var x = 5;
+console.log(x); // Salida: 5
+
+```
+> 
+**Ejemplo con función:**
+
+```javascript
+foo(); // Salida: "Hola, mundo!"
+
+function foo() {
+  console.log("Hola, mundo!");
+}
+
+```
+> 
+Es importante recordar que el hoisting no funciona igual con `let` y `const`, y acceder a ellas antes de la declaración resulta en un error.
+
+```javascript
+console.log(y); // Error: y no está definido
+let y = 10;
+
+```
+
+#### 10. Definir brevemente el concepto de objeto en JavaScript y cuál es la visión general sobre este concepto. Indicar, también cómo se declaran estas estructuras de datos.
+
+> En JavaScript, un objeto es una estructura de datos que agrupa datos y funciones relacionadas en un solo contenedor. Estos objetos siguen el paradigma de programación orientada a objetos, lo que significa que pueden tener propiedades y métodos.
+
+
+>  la visión general de un objeto es la de un conjunto de pares clave-valor, donde las claves son cadenas (o símbolos) que actúan como nombres de propiedades, y los valores pueden ser cualquier tipo de datos.
+
+> La declaración de un objeto se realiza mediante la siguiente sintaxis:
+
+```javascript
+let miObjeto = {}; // Objeto vacío
+
+// Objeto con propiedades
+let persona = {
+  nombre: "Juan",
+  edad: 30,
+  saludar: function() {
+    console.log("Hola, soy " + this.nombre);
+  }
+};
+
+// Acceder a propiedades y métodos
+console.log(persona.nombre); // Imprime "Juan"
+persona.saludar(); // Imprime "Hola, soy Juan"
+
+```
+
+#### 11. .¿Qué son propiedades?, y ¿Cuál es la diferencia entre una propiedad y un método en un objeto?
+
+> las propiedades son variables que almacenan datos en un objeto,  pueden contener cualquier tipo de dato, como números, cadenas, otros objetos, etc. 
+mientras que los métodos son funciones asociadas al objeto que realizan acciones específicas en ese contexto.
+
+#### 12. .Explicar las dos formas de acceder a una propiedad de objetos e indicar las situaciones en que conviene usar una manera sobre la otra.
+
+> la notación de punto `(objeto.propiedad)` y la notación de corchetes `(objeto['propiedad'])`.
+
+> es útil en situaciones donde el nombre de la propiedad es dinámico o se determina durante la ejecución del programa. La elección entre ambas depende de las necesidades específicas del código que estás escribiendo.
+
+#### 13. .Explicar las dos formas de acceder a una propiedad de objetos e indicar las situaciones en que conviene usar una manera sobre la otra.
+
+> Sí, es posible recorrer las propiedades de un objeto, Una forma común de hacerlo es mediante un bucle for...in. 
+
+```javascript
+let persona = {
+  nombre: "Juan",
+  edad: 30,
+  ciudad: "Ejemploville"
+};
+
+for (let propiedad in persona) {
+  console.log(propiedad + ": " + persona[propiedad]);
+}
+
+```
+#### 14. ¿Por qué son útiles los objetos en la programación web y qué tipos de datos pueden almacenar?
+
+
+
+> Los objetos son útiles para organizar datos y comportamientos relacionados, facilitando el mantenimiento del código. Pueden almacenar diversos tipos de datos como números, cadenas, funciones y otros objetos.
+
+#### 15. ¿Qué es un array en JavaScript y por qué son esenciales?
+> Un array es una estructura de datos que almacena elementos de manera secuencial. Es esencial para manejar conjuntos de datos.
+
+
+#### 16. ¿Cómo acceder a un elemento dentro de un array? Explicar con un ejemplo.
+
+> puedes acceder a un elemento dentro de un array utilizando su índice. El índice es la posición del elemento en el array, y generalmente comienza desde cero. ejemplo `miArray[0]`
+
+```javascript
+let miArray = [10, 20, 30, 40, 50];
+let elemento = miArray[2]; // Acceder al tercer elemento (índice 2)
+console.log(elemento); // Salida: 30
+
+```
+
+#### 17. Mencionar al menos tres funciones de arrays y describir su utilidad en la programación web.
+
+> Ejemplos incluyen "map()" para transformar datos, "filter()" para filtrar elementos y "reduce()" para combinar valores.
+
+#### 18. Proporcionar un ejemplo de cómo se utiliza una función de array para transformar y filtrar datos en un array
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const squaredNumbers = numbers.map(num => num * num);
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+
+```
 
 
 
